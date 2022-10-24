@@ -32,9 +32,6 @@ public class MainApp {
             System.out.println();
         }
         System.out.println(userService.getUsByCar("car1", 111));
-        System.out.println(userService.getUsByCar("car2", 222));
-        System.out.println(userService.getUsByCar("car4", 444));
-        System.out.println(userService.getUsByCar("car3", 333));
         context.close();
     }
 }
