@@ -33,5 +33,6 @@ public class MainApp {
         }
         System.out.println(userService.getUsByCar("car1", 111));
         context.close();
+
     }
 }
